@@ -3,3 +3,9 @@ variable "terraform_cloud_organization" {
   type        = string
   default     = "cl-infrastructure"
 }
+
+variable "terraform_cloud_default_project_id" {
+  description = "Terraform default project id"
+  type = string
+  default = "prj-JLaygAbry8tJDsYr"
+}
