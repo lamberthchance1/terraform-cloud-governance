@@ -6,6 +6,6 @@
 resource "tfe_workspace" "test" {
   name         = "sample-workspace"
   organization = var.terraform_cloud_organization
-  project_id   = var.terraform_cloud_default_project_id
+  project_id   = "ws-XwBKEMXoJniyHmgY"
   tag_names    = ["test", "app"]
 }
