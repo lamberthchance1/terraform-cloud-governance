@@ -3,13 +3,8 @@
 
 terraform {
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "4.52.0"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "3.4.3"
+    tfe = {
+      version = "~> 0.62.0"
     }
   }
   required_version = ">= 1.1.0"
@@ -23,4 +18,4 @@ terraform {
   }
 }
 
-resource "random_pet" "sg" {}
+
